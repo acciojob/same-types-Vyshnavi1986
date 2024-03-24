@@ -5,14 +5,13 @@ function isSameType(value1, value2)
 	{
 	window.alert(true);
 	}
-	elseif(value1==nan && value2=nan)
-		window.alert(true);
+	
 	else
 		window.alert(false);
 }
 
  //do not change the code below.
-//let value1 = prompt("Enter Start of the Range.");
-//let value2 = prompt("Enter End Of the Range.");
+let value1 = prompt("Enter Start of the Range.");
+let value2 = prompt("Enter End Of the Range.");
 isSameType(value1, value2);
 
